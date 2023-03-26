@@ -174,11 +174,6 @@ img {
     fill: currentColor;
 }
 
-.icon-mail-link:hover,
-.icon-mail-link:focus {
-    fill: var(--accent-color);
-}
-
 /*===== Hero =====*/
 
 .hero {
@@ -439,7 +434,7 @@ img {
     justify-content: center;
     border-radius: 50%;
     cursor: pointer;
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
     width: 44px;
     height: 44px;
@@ -448,6 +443,7 @@ img {
 .social-list-link:hover,
 .social-list-link:focus {
     background-color: var(--accent-color);
+    fill: var(--background-color);
 }
 
 .social-list-link:hover .social-list-icon,
@@ -457,6 +453,7 @@ img {
 
 .social-list-icon {
     fill: #AFB1B8;
+
 }
 
 /*===== Filters =====*/
@@ -670,7 +667,6 @@ img {
     align-items: center;
     justify-content: center;
     border-radius: 50%;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     cursor: pointer;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
